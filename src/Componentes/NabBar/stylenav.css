@@ -3,6 +3,11 @@
     margin: 0;
     padding: 0;
 }
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: #f752e0;
+    font-size: 30px;
+}
 nav{
     background-color: black;
     margin: 5px;
@@ -31,4 +36,5 @@ li{
 a{
     color: white;
 }
+
 

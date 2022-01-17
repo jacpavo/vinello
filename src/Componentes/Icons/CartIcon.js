@@ -1,9 +1,9 @@
 import React from 'react'
-import { faShoppingBag } from '@fortawesome/free-solid-svg-icons'
+import { faShoppingBag} from '@fortawesome/free-solid-svg-icons'
 
-const CartIcon = () => {
+const CartIcon= () => {
     return (
-        <faShoppingBag/>
+        <faShoppingBag />
     )
 }
 export default CartIcon

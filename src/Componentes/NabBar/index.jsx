@@ -1,11 +1,11 @@
-import logo from '../assets/Vinello-Logo.svg'
+import React from 'react'
 import CartIcon from '../Icons/CartIcon';
 import './stylenav.css'
 
 
 const NavBar = () => {
     return <nav> 
-        <img src={logo} alt="Logo" className="logo"></img>
+                <h1>Vinello</h1>
                 <ul>
                     <li>
                         <a href="..//Paginas/Inicio.js">Inicio</a>
@@ -23,12 +23,12 @@ const NavBar = () => {
                         <a href="..//Paginas/Contacto.js">Contacto</a>
                     </li>
                     <li>
-                        <CartIcon/>
+                        <a href="./Icons/CartIcon.js">{<CartIcon className='icon'/>}</a>
                     </li>
                 </ul>
                 
          </nav>;
-         <h1>Vinello</h1>
+    
 };
 
 export default NavBar;
