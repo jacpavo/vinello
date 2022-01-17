@@ -1,6 +1,7 @@
 import logo from '../assets/Vinello-Logo.svg'
+import CartIcon from '../Icons/CartIcon';
 import './stylenav.css'
-import CartWidget from './CartWidget';
+
 
 const NavBar = () => {
     return <nav> 
@@ -22,7 +23,7 @@ const NavBar = () => {
                         <a href="..//Paginas/Contacto.js">Contacto</a>
                     </li>
                     <li>
-                        <CartWidget/>
+                        <CartIcon/>
                     </li>
                 </ul>
                 
