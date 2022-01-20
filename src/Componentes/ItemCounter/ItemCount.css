@@ -1,0 +1,25 @@
+
+
+div.contador{
+    border:solid;
+    border-color: #ffe045;
+    margin: auto;
+    padding: 10px;
+    justify-content: space-between;
+
+}
+
+h4{
+    text-decoration: #f752e0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.plusbag{
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+

@@ -23,7 +23,7 @@ const NavBar = () => {
                         <a href="..//Paginas/Contacto.js">Contacto</a>
                     </li>
                     <li>
-                        <a href="./Icons/CartIcon.js">{<CartIcon className='icon'/>}</a>
+                        <a href="./Icons/CartIcon.js"> <CartIcon className='icon'/> </a>
                     </li>
                 </ul>
                 
