@@ -1,5 +1,5 @@
 import React from 'react'
-import CartIcon from '../Icons/CartIcon';
+import CartIcon from '/Users/javiercascante/Documents/JAPI/CODE/React JS/coder-rj-jc/src/Componentes/Icons/CartIcon.jsx'
 import './stylenav.css'
 
 

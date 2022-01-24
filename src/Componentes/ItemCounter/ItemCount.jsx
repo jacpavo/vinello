@@ -2,7 +2,7 @@
 import React from "react";
 import './ItemCount.css'
 
-function Contador (){
+function ItemCounter (){
    const [counter, setCounter] = React.useState(0);
 
    const contarClick = () => {
@@ -27,4 +27,4 @@ function Contador (){
 
 }
 
-export default Contador;
+export default ItemCounter;

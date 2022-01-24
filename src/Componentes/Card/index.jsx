@@ -7,7 +7,7 @@ function WineCard ({ marca, cepa, año }) {
             <p>Marca: {marca} </p>
             <p>Cepa: {cepa} </p>
             <p>Año: {año} </p>
-            {<ItemCounter/>}
+            <ItemCounter/>
         </div>
     );
 }
