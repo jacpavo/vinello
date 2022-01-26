@@ -8,22 +8,22 @@ const NavBar = () => {
                 <h1>Vinello</h1>
                 <ul>
                     <li>
-                        <a href="..//Paginas/Inicio.js">Inicio</a>
+                        <a>Inicio</a>
                     </li>
                     <li>
-                        <a href="..//Paginas/Vinos.js">Vinos</a>
+                        <a>Vinos</a>
                     </li>
                     <li>
-                        <a href="..//Paginas/Cervezas.js">Cervezas</a>
+                        <a>Cervezas</a>
                     </li>
                     <li>
-                        <a href="..//Paginas/Espirituosas.js">Espirituosas</a>
+                        <a>Espirituosas</a>
                     </li>
                     <li>
-                        <a href="..//Paginas/Contacto.js">Contacto</a>
+                        <a>Contacto</a>
                     </li>
                     <li>
-                        <a href="./Icons/CartIcon.js"> <CartIcon className='icon'/> </a>
+                        <a> <CartIcon className='icon'/> </a>
                     </li>
                 </ul>
                 
