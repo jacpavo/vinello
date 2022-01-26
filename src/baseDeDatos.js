@@ -42,6 +42,6 @@ const CERVEZAS = [
     
   export function getEspirituosas() {
     return new Promise((resolve, reject) => {
-      setTimeout(()=> resolve(ESPIRITUOSAS), 3000);
+      setTimeout(()=> resolve(ESPIRITUOSAS), 2000);
     });
   }
